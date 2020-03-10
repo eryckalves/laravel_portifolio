@@ -19,7 +19,7 @@
     <link href="{{ asset('css/semantic.min.css') }}" rel="stylesheet">
         @yield('customCSS')
 </head>
-<body class="">
+<body id="bodylaravel" class="">
     <div id="app">
         <header>
             <div class="container">

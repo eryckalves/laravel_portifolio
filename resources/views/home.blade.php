@@ -208,7 +208,7 @@
                     <div class="asterisk"><i class="fas fa-sort-amount-up-alt"></i></div>
                 </div>
                 <p>Using Semantic UI</p>
-                <a href="https://github.com/eryckalves/laravel_portifolio" class="btn body-btn">CodeS</a>
+                <a href="https://github.com/eryckalves/laravel_portifolio" class="btn body-btn">CodeS GITHUB</a>
             </div>
 
             <div class="ui inverted segment animate-left">

@@ -12,12 +12,11 @@ $( document ).ready(function() {
     menuToggler.addEventListener('click', addToggle );
 
     function addToggle() {
-        body.classList.toggle('open');
+            body.classList.toggle('open');
     }
 
     //scroll on click About US
     $("#contact").click(function (e){
-        body.classList.toggle('open');
         e.preventDefault();
         $('html, body').animate({
             scrollTop: $(".footer").offset().top
@@ -26,7 +25,12 @@ $( document ).ready(function() {
 
     //scroll on click Gallery
     $("#gallery").click(function (e){
-        body.classList.toggle('open');
+        var element = document.querySelector("#bodylaravel");
+        var testClass = element.className;
+        if(element.classList.contains(testClass))
+        {
+            body.classList.toggle('open');
+        }
         e.preventDefault();
         $('html, body').animate({
             scrollTop: $(".gallery-favorite").offset().top
@@ -35,7 +39,12 @@ $( document ).ready(function() {
 
     //scroll on click Tecnology
     $("#tecnology").click(function (e){
-        body.classList.toggle('open');
+        var element = document.querySelector("#bodylaravel");
+        var testClass = element.className;
+        if(element.classList.contains(testClass))
+        {
+            body.classList.toggle('open');
+        }
         e.preventDefault();
         $('html, body').animate({
             scrollTop: $(".tecnology-used").offset().top
@@ -44,7 +53,12 @@ $( document ).ready(function() {
 
     //scroll on click Team
     $("#team").click(function (e){
-        body.classList.toggle('open');
+        var element = document.querySelector("#bodylaravel");
+        var testClass = element.className;
+        if(element.classList.contains(testClass))
+        {
+            body.classList.toggle('open');
+        }
         e.preventDefault();
         $('html, body').animate({
             scrollTop: $(".team-our-ppl").offset().top
@@ -53,7 +67,12 @@ $( document ).ready(function() {
 
         //scroll on click Discovery
         $("#discovery").click(function (e){
-            body.classList.toggle('open');
+            var element = document.querySelector("#bodylaravel");
+            var testClass = element.className;
+            if(element.classList.contains(testClass))
+            {
+                body.classList.toggle('open');
+            }
             e.preventDefault();
             $('html, body').animate({
                 scrollTop: $(".discovery").offset().top
@@ -62,7 +81,12 @@ $( document ).ready(function() {
 
     //scroll on click test
     $("#test").click(function (e){
-        body.classList.toggle('open');
+        var element = document.querySelector("#bodylaravel");
+        var testClass = element.className;
+        if(element.classList.contains(testClass))
+        {
+            body.classList.toggle('open');
+        }
         e.preventDefault();
         $('html, body').animate({
             scrollTop: $(".tecnology-used").offset().top
